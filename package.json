@@ -1,0 +1,60 @@
+{
+  "name": "ziwei-mcp",
+  "version": "1.0.0",
+  "description": "紫微斗数 MCP (Ziwei Doushu Model Context Protocol) - 基于 MCP 协议的紫微斗数命理分析工具",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --inspect src/index.js",
+    "test": "node test-basic.js",
+    "lint": "eslint src/**/*.js",
+    "format": "prettier --write src/**/*.js",
+    "prepublishOnly": "npm run lint && npm run test",
+    "prepack": "npm run format",
+    "publish:dry": "npm publish --dry-run"
+  },
+  "keywords": [
+    "ziwei",
+    "doushu",
+    "astrology",
+    "mcp",
+    "model-context-protocol",
+    "chinese-astrology"
+  ],
+  "author": {
+    "name": "siwuxie",
+    "email": "3488909960@qq.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/ziwei-mcp.git"
+  },
+  "homepage": "https://github.com/yourusername/ziwei-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/yourusername/ziwei-mcp/issues"
+  },
+  "files": [
+    "src/",
+    "config/",
+    "README.md",
+    "package.json"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0",
+    "date-fns": "^2.30.0",
+    "lunar-javascript": "^1.6.12",
+    "sqlite3": "^5.1.7",
+    "uuid": "^11.1.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "eslint": "^8.54.0",
+    "nodemon": "^3.0.2",
+    "prettier": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
