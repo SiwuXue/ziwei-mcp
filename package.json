@@ -1,6 +1,6 @@
 {
   "name": "ziwei-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "紫微斗数 MCP (Ziwei Doushu Model Context Protocol) - 基于 MCP 协议的紫微斗数命理分析工具",
   "main": "src/index.js",
   "type": "commonjs",
