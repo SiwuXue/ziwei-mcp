@@ -18,16 +18,16 @@ module.exports = {
     'linebreak-style': 'off', // 关闭换行符检查，适应Windows环境
     'quotes': 'off',
     'semi': ['error', 'always'],
-    
+
     // 变量相关
     'no-unused-vars': 'off', // 暂时关闭未使用变量检查
     'no-undef': 'error',
-    
+
     // 代码质量
     'no-console': 'off', // 允许console.log用于调试
     'no-debugger': 'warn',
     'no-alert': 'warn',
-    
+
     // 最佳实践
     'eqeqeq': 'warn', // 降级为警告
     'no-eval': 'error',
@@ -35,7 +35,7 @@ module.exports = {
     'no-new-func': 'error',
     'no-useless-escape': 'warn', // 降级为警告
     'no-case-declarations': 'warn', // 降级为警告
-    
+
     // 代码风格 - 全部关闭以便快速发布
     'brace-style': 'off',
     'comma-dangle': 'off',

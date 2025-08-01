@@ -63,8 +63,8 @@ npm start
 {
   "mcpServers": {
     "ziwei-doushu": {
-      "command": "node",
-      "args": "/to/your/path/src/index.js"
+      "command": "npx",
+      "args": ["ziwei-mcp"]
     }
   }
 }
@@ -82,9 +82,8 @@ npm start
 {
   "name": "紫微斗数MCP服务器",
   "description": "紫微斗数命理分析MCP服务",
-  "command": "node",
-  "args": ["start-server.js"],
-  "cwd": "/to/your/path",
+  "command": "npx",
+  "args": ["ziwei-mcp"],
   "env": {},
   "protocol": "stdio",
   "timeout": 30000,
@@ -312,9 +311,8 @@ chore: 构建过程或辅助工具的变动
 
 对于其他支持MCP的客户端，请参考以下stdio配置参数：
 
-- **命令**: `node`
-- **参数**: `["src/index.js"]`
-- **工作目录**: 项目根目录路径
+- **命令**: `npx`
+- **参数**: `["ziwei-mcp"]`
 - **协议**: stdio
 
 ## 📋 更新日志
