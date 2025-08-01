@@ -64,8 +64,7 @@ npm start
   "mcpServers": {
     "ziwei-doushu": {
       "command": "node",
-      "args": ["src/index.js"],
-      "cwd": "e:\\桌面\\项目资源\\腾讯云\\紫微斗数"
+      "args": "/to/your/path/src/index.js"
     }
   }
 }
@@ -85,7 +84,7 @@ npm start
   "description": "紫微斗数命理分析MCP服务",
   "command": "node",
   "args": ["start-server.js"],
-  "cwd": "e:\\桌面\\项目资源\\腾讯云\\紫微斗数",
+  "cwd": "/to/your/path",
   "env": {},
   "protocol": "stdio",
   "timeout": 30000,
@@ -189,44 +188,6 @@ npm start
 
 #### 11. educational_guidance - 教育指导
 教育和学习指导
-
-## 🏗️ 项目结构
-
-```
-紫微斗数/
-├── src/                    # 源代码目录
-│   ├── index.js           # MCP服务器入口文件
-│   ├── core/              # 核心算法模块
-│   │   ├── calendar.js    # 农历转换算法
-│   │   ├── chart-generator.js # 命盘生成器
-│   │   ├── data-persistence.js # 数据持久化
-│   │   ├── enhanced-*.js  # 增强功能模块
-│   │   ├── sqlite-persistence.js # SQLite持久化
-│   │   └── svg-*.js       # SVG可视化相关
-│   ├── tools/             # MCP工具实现
-│   │   ├── mcp-handler.js # MCP处理器
-│   │   ├── chart-interpreter.js # 命盘解读
-│   │   ├── fortune-analyzer.js # 运势分析
-│   │   ├── compatibility-analyzer.js # 合婚分析
-│   │   ├── career-guidance.js # 职业指导
-│   │   ├── health-analyzer.js # 健康分析
-│   │   └── *.js           # 其他专业分析工具
-│   ├── data/              # 数据文件
-│   │   └── stars-database.js # 星曜数据库
-│   └── services/          # 服务层
-│       └── professional-data-service.js
-├── config/                # 配置文件
-│   ├── sqlite-config.js   # SQLite配置
-│   └── persistence-config.js # 持久化配置
-├── data/                  # 数据存储目录
-│   ├── charts.db          # SQLite数据库
-│   └── backups/           # 数据备份
-├── package.json           # 项目配置和依赖
-├── README.md             # 项目说明文档
-├── 紫微斗数MCP开发文档.md  # 详细开发文档
-├── SQLite部署指南.md      # 数据库部署指南
-└── SVG生成器使用指南.md   # SVG生成使用说明
-```
 
 ## 🛠️ 开发指南
 

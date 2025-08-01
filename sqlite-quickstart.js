@@ -7,7 +7,7 @@
 const fs = require('fs');
 const path = require('path');
 const SQLitePersistenceManager = require('./src/core/sqlite-persistence');
-const { SQLiteConfig } = require('./sqlite-config-simple');
+const { SQLiteConfig } = require('./config/sqlite-config-simple');
 
 class SQLiteQuickStart {
     constructor() {

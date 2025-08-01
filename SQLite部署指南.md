@@ -50,7 +50,7 @@
 
 ```bash
 # 进入项目目录
-cd e:\桌面\项目资源\腾讯云\紫微斗数
+
 
 # 安装SQLite依赖
 npm install sqlite3
