@@ -64,34 +64,12 @@ npm start
   "mcpServers": {
     "ziwei-doushu": {
       "command": "npx",
-      "args": ["ziwei-mcp"]
+      "args": ["-y","ziwei-mcp"]
     }
   }
 }
 ```
 
-#### Cherry Studio配置
-
-在Cherry Studio中配置MCP服务器：
-
-1. 打开Cherry Studio设置
-2. 找到MCP服务器配置选项
-3. 添加新的MCP服务器，使用以下配置：
-
-```json
-{
-  "name": "紫微斗数MCP服务器",
-  "description": "紫微斗数命理分析MCP服务",
-  "command": "npx",
-  "args": ["ziwei-mcp"],
-  "env": {},
-  "protocol": "stdio",
-  "timeout": 30000,
-  "restart": true
-}
-```
-
-或者直接导入项目根目录下的`cherry-studio-config.json`配置文件。
 
 ## 📚 API 文档
 
@@ -306,14 +284,6 @@ chore: 构建过程或辅助工具的变动
 ---
 
 **注意**: 本项目仅供学习和研究使用，命理分析结果仅供参考，不应作为人生重大决策的唯一依据。
-
-#### 其他MCP客户端配置
-
-对于其他支持MCP的客户端，请参考以下stdio配置参数：
-
-- **命令**: `npx`
-- **参数**: `["ziwei-mcp"]`
-- **协议**: stdio
 
 ## 📋 更新日志
 

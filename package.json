@@ -35,9 +35,6 @@
   "bugs": {
     "url": "https://github.com/SiwuXue/ziwei-mcp/issues"
   },
-  "bin": {
-    "ziwei-mcp": "src/index.js"
-  },
   "files": [
     "src/",
     "config/",

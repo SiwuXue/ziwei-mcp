@@ -15,7 +15,6 @@ sqlite-quickstart.js
 # 文档（保留README.md）
 SQLite部署指南.md
 SVG生成器使用指南.md
-紫微斗数MCP开发文档.md
 
 # 日志文件
 *.log
